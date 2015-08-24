@@ -19,7 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         """
 
         self.assertIn('To-Do', self.browser.title)
-        self.fail('Finish the teset!')
+        self.fail('Finish the test!')
 
         """
         She is invited to enter a To Do item straight away and enters buy
@@ -32,7 +32,8 @@ class NewVisitorTest(unittest.TestCase):
 
         # She hits enter again and the page now shows both items
 
-        """She wonders if the site will remember her and see she's the site has
+        """
+        She wonders if the site will remember her and see she's the site has
         generated a unique url for her, she visits the new url and the list is
         still there
         Satisfied she goes to sleep """
